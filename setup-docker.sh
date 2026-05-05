@@ -32,7 +32,7 @@ if [ ! -d ".venv" ]; then
   fi
 fi
 # shellcheck source=/dev/null
-source .venv/bin/activate
+source .venv/Scripts/activate
 
 # ── 4. Install lite + docker extras ─────────────────────────────────────
 if command -v uv >/dev/null 2>&1; then
